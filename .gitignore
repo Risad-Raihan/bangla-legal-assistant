@@ -1,0 +1,143 @@
+# Environment variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# API Keys (security)
+config_private.py
+api_keys.txt
+credentials.json
+config_local.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+legal_chatbot_env/
+legal_env/
+.venv
+
+# Vector database files (can be regenerated)
+vector_db/
+*.faiss
+*.index
+*.pkl
+*.bin
+*.safetensors
+
+# Logs
+logs/
+*.log
+log.txt
+*.log.*
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# Model files (large files)
+models/
+*.model
+*.h5
+*.pkl.gz
+
+# Cache directories
+.cache/
+.streamlit/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large PDF processing temp files
+*.pdf.tmp
+*.pdf.cache
+
+# Embedding cache
+embeddings_cache/
+.sentence_transformers/
+
+# Test files
+test_outputs/
+test_results/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Streamlit
+.streamlit/
+
+# Data files (if sensitive)
+# Uncomment if your data contains sensitive information
+# data/
+
+# Cache directories
+*.cache 
