@@ -1,0 +1,27 @@
+# CPU-optimized requirements for Arch Linux and systems without GPU
+# Use this file with: pip install -r requirements-cpu.txt
+
+# Core application dependencies
+streamlit>=1.29.0
+google-generativeai>=0.3.0
+python-dotenv>=1.0.0
+PyPDF2>=3.0.0
+
+# Vector database (CPU version)
+faiss-cpu>=1.7.0
+
+# Machine learning libraries (CPU versions)
+sentence-transformers>=2.2.0
+torch>=2.0.0,<3.0.0  # CPU version will be installed by default
+transformers>=4.21.0
+
+# Data processing
+numpy>=1.21.0,<2.0.0
+pandas>=2.0.0
+
+# Optional: Explicitly specify CPU-only PyTorch if needed
+# Uncomment the following lines if you want to force CPU-only PyTorch:
+# --extra-index-url https://download.pytorch.org/whl/cpu
+# torch>=2.0.0,<3.0.0+cpu
+# torchvision>=0.15.0,<1.0.0+cpu
+# torchaudio>=2.0.0,<3.0.0+cpu 
